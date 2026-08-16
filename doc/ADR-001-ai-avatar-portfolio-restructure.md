@@ -285,7 +285,6 @@ portfolio/
 - `@react-three/drei`: GLTF loading, camera helpers, environment, contact shadows.
 - `three-stdlib`: optional loaders/utilities.
 - `leva`: development-only tuning controls for avatar/camera/materials.
-- `@google/model-viewer`: optional progressive fallback for displaying the WEBGLB avatar outside the full Three.js scene.
 
 ### Avatar Source
 

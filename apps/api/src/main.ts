@@ -10,7 +10,7 @@ async function bootstrap() {
     credentials: true
   });
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true }));
-  await app.listen(Number(process.env.PORT || 4000), process.env.HOST || '127.0.0.1');
+  await app.listen(Number(process.env.PORT || 4000), process.env.HOST || '0.0.0.0');
 }
 
 void bootstrap();

@@ -6,6 +6,7 @@
     "dev": "next dev",
     "dev:web": "next dev",
     "dev:api": "npm run build:api && node dist/apps/api/main.js",
+    "build:frontend": "next build",
     "build": "next build",
     "build:api": "tsc -p apps/api/tsconfig.app.json --incremental false",
     "start": "next start",
@@ -15,7 +16,6 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
-    "@google/model-viewer": "^3.5.0",
     "@hookform/resolvers": "^3.9.0",
     "@hubspot/api-client": "^12.0.1",
     "@nestjs/common": "^10.4.4",

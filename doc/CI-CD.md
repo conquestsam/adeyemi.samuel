@@ -18,6 +18,14 @@ The workflow installs dependencies, pulls Vercel production settings, builds the
 
 The backend is built through `.github/workflows/deploy-backend.yml`.
 
+For Render, use `render.yaml` or configure the service manually:
+
+- Runtime: `Node`
+- Build command: `npm ci && npm run build:api`
+- Start command: `npm run start:api`
+- Health check path: `/portfolio`
+- Node version: `20.18.1`
+
 Required GitHub secret:
 
 - `BACKEND_DEPLOY_HOOK_URL`
