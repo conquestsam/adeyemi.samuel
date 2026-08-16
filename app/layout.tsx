@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'TypeScript developer',
     'Brussels full stack developer'
   ],
-  authors: [{ name: 'Adeyemi Samuel', url: 'https://adeyemi-samuel-portfolio.vercel.app/' }],
+  authors: [{ name: 'Adeyemi Samuel', url: 'https://adeyemisamuel.vercel.app/' }],
   creator: 'Adeyemi Samuel',
   publisher: 'Adeyemi Samuel',
   category: 'portfolio',

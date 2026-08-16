@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://adeyemi-samuel-portfolio.vercel.app/sitemap.xml
+Sitemap: https://adeyemisamuel.vercel.app/sitemap.xml

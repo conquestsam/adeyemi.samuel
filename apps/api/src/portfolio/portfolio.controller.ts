@@ -10,3 +10,16 @@ export class PortfolioController {
     return this.portfolio.getPortfolio();
   }
 }
+
+@Controller()
+export class HealthController {
+  @Get()
+  health() {
+    return {
+      status: 'ok',
+      service: 'adeyemi-samuel-api',
+      portfolio: '/portfolio',
+      chat: '/ai/chat'
+    };
+  }
+}

@@ -7,7 +7,9 @@ import { IconButton } from '@/components/ui/IconButton';
 import { projects } from '@/content/projects';
 import { quickPrompts } from '@/content/prompts';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:4000';
+const API_BASE_URL =
+  process.env.NEXT_PUBLIC_API_BASE_URL ||
+  (process.env.NODE_ENV === 'production' ? 'https://adeyemi-samuel.onrender.com' : 'http://localhost:4000');
 
 type Message = {
   role: 'user' | 'assistant';

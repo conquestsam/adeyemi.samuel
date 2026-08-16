@@ -4,7 +4,7 @@ export const profile = {
   location: 'Rochester, USA',
   email: 'conqueststat@icloud.com',
   phone: '+234 806 141 0856',
-  websiteUrl: 'https://adeyemi-samuel-portfolio.vercel.app/',
+  websiteUrl: 'https://adeyemisamuel.vercel.app/',
   githubUrl: 'https://github.com/conquestsam',
   linkedinUrl: 'https://www.linkedin.com/in/adeniyi-adeyemi-samuel-352569226/',
   availability: 'Available for Software/Product, full-stack, AI-assisted product, and SaaS engineering projects.',
