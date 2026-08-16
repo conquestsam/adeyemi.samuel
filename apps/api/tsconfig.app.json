@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "noEmit": false,
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2021",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "../../dist/apps/api",
+    "rootDir": "src",
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
+}

@@ -1,0 +1,43 @@
+name: Deploy Backend
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - apps/api/**
+      - package.json
+      - package-lock.json
+      - tsconfig.json
+
+concurrency:
+  group: deploy-backend
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    name: Build API And Trigger Deploy
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      BACKEND_DEPLOY_HOOK_URL: ${{ secrets.BACKEND_DEPLOY_HOOK_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build NestJS API
+        run: npm run build:api
+
+      - name: Trigger backend deploy hook
+        if: ${{ env.BACKEND_DEPLOY_HOOK_URL != '' }}
+        run: curl -fsS -X POST "$BACKEND_DEPLOY_HOOK_URL"

@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Adeyemi Samuel avatar logo</title>
+  <desc id="desc">A portrait-style avatar mark for Adeyemi Samuel's AI portfolio.</desc>
+  <rect width="512" height="512" rx="96" fill="#030712"/>
+  <circle cx="256" cy="182" r="82" fill="#E5E7EB"/>
+  <path d="M173 166c12-63 55-92 112-81 43 8 68 38 76 81-21-17-51-27-91-30-40-3-72 7-97 30Z" fill="#111827"/>
+  <path d="M126 430c8-102 60-154 130-154s122 52 130 154H126Z" fill="#111827"/>
+  <path d="M190 430c8-62 31-103 66-125 35 22 58 63 66 125H190Z" fill="#F9FAFB" opacity=".94"/>
+  <path d="M127 430c3-46 16-83 39-110l61 110H127Z" fill="#0F172A"/>
+  <path d="M385 430c-3-46-16-83-39-110l-61 110H385Z" fill="#0F172A"/>
+  <circle cx="225" cy="184" r="8" fill="#030712"/>
+  <circle cx="287" cy="184" r="8" fill="#030712"/>
+  <path d="M226 229c18 14 42 14 60 0" stroke="#030712" stroke-width="10" stroke-linecap="round"/>
+  <path d="M118 118 94 94m300 24 24-24M94 418l24-24m300 24-24-24" stroke="#374151" stroke-width="10" stroke-linecap="round"/>
+</svg>

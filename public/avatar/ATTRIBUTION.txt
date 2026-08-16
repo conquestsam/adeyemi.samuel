@@ -1,0 +1,7 @@
+Avatar model:
+"Portrait Of A Young Man In A Black Jacket" by restore50
+Source: https://sketchfab.com/3d-models/portrait-of-a-young-man-in-a-black-jacket-27c0649f84c94f17999efa790b093b46
+License: CC-BY-4.0
+
+Local app path:
+public/avatar/samuel.glb
