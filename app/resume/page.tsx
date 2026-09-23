@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Download, ExternalLink } from 'lucide-react';
 import { Header } from '@/components/layout/Header';
 
-const resumeUrl = '/resume/adeyemi-samuel-cv.pdf';
+const resumeUrl = '/resume/CV_ADENIYI ADEYEMI SAMUEL.pdf';
 
 export const metadata: Metadata = {
   title: 'Resume',

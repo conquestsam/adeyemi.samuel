@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Adeyemi Samuel',
   headline: 'Senior Product Engineer | Mobile & Web Engineer',
-  location: 'Rochester, USA',
+  location: 'Abuja, Nigeria',
   email: 'conqueststat@icloud.com',
   phone: '+234 806 141 0856',
   websiteUrl: 'https://adeyemisamuel.vercel.app/',
